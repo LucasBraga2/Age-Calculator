@@ -11,7 +11,7 @@ interface InputGroupProps {
   min?: number;
   max?: number;
   placeholder?: string;
-  inputRef?: React.RefObject<HTMLInputElement>;
+  inputRef?: React.Ref<HTMLInputElement>; 
 }
 
 export function InputGroup({

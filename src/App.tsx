@@ -132,7 +132,7 @@ export default function App() {
             min={1}
             max={31}
             placeholder="DD"
-            //inputRef={dayInputRef} // Passa a ref para o InputGroup
+            inputRef={dayInputRef} 
           />
           <InputGroup
             label="MONTH"
